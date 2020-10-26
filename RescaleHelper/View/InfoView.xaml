@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="RescaleHelper.View.InfoView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RescaleHelper.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid RequestedTheme="Default"> 
+        <Grid  x:Name="MainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="33"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="100"/>
+            </Grid.RowDefinitions>
+
+            <!--Top-->
+            <!--<CommandBar IsSticky="True"  IsOpen="True" Grid.Row="5" VerticalAlignment="Stretch" Style="{StaticResource AppBarButtonRevealStyle}">
+                <AppBar.Content>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                        <AppBarButton  Icon="LikeDislike" HorizontalAlignment="Left" ToolTipService.ToolTip="Rate Us"></AppBarButton>
+                        <AppBarButton Icon="ContactInfo" HorizontalAlignment="Left"></AppBarButton>
+                    </StackPanel>
+                </AppBar.Content>
+            </CommandBar>-->
+            
+            <!--Thank you text-->
+            <StackPanel Grid.Row="1">
+                <RichTextBlock 
+                       HorizontalAlignment="Stretch" 
+                       VerticalAlignment="Center"
+                       TextAlignment="Center">
+                    <Paragraph>
+                        Thank you for installing Image Rescale
+                    </Paragraph>
+                    <Paragraph>
+                        I hope it will help you to stay productive and less repeditive with image scaling tasks
+                    </Paragraph>
+                    <Paragraph>
+                        If you have a extra minute (saved with this application) please leave a review
+                    </Paragraph>
+                </RichTextBlock>
+            </StackPanel>
+
+            <!--Content-->
+            <StackPanel Grid.Row="3">
+                <RichTextBlock  
+                    HorizontalAlignment="Stretch" 
+                    VerticalAlignment="Center"
+                    TextAlignment="Center">
+                    <Paragraph>
+                        Importaint note: Currenly export is encoding imaged only in JPEG format
+                        <LineBreak/>
+                    </Paragraph>
+                    <Paragraph>
+                        Usage:
+                    </Paragraph>
+                    <Paragraph>
+                        On Scaling page add Image(s) that you wish to rescale with "Add Images" button.
+                    </Paragraph>
+                    <Paragraph>
+                        Data will load into application and will be independent from actual files.
+                    </Paragraph>
+                    <Paragraph>
+                        Loaded images will be displayed in the list (left) by the original file name        .             
+                    </Paragraph>
+                    <Paragraph>
+                        Each Image data also contains delete button at the end of the filename.
+                    </Paragraph>
+                    <Paragraph>
+                        List can be cleared completly by pressing Trashcan button next to add images button.
+                    </Paragraph>
+                    <Paragraph>
+                        You can select single image from the list in order to preview it and see the aspec ration
+                        <LineBreak/>
+                        Above the image preview, you can select main export directore (Folder) where all rescaled images will be stores.
+                        <LineBreak/>
+                        Optionally you can assign each Scale size individual folder (this is very practical when creating images for android).
+                    </Paragraph>
+                    <Paragraph>
+                        <LineBreak/>
+                        On right side you have a list with scale setting where you can set width, height, specific folder (optiona) and scaling
+                        <LineBreak/>
+                        Interpolation mode ( which algorithm will be used for this scale setting)
+                    </Paragraph>
+                </RichTextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

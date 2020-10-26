@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RescaleHelper", "RescaleHelper\RescaleHelper.csproj", "{9EC7076F-9E9F-4695-935B-83888B69109C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|ARM.Build.0 = Debug|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x64.ActiveCfg = Debug|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x64.Build.0 = Debug|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x64.Deploy.0 = Debug|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x86.ActiveCfg = Debug|x86
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x86.Build.0 = Debug|x86
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Debug|x86.Deploy.0 = Debug|x86
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|ARM.ActiveCfg = Release|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|ARM.Build.0 = Release|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|ARM.Deploy.0 = Release|ARM
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x64.ActiveCfg = Release|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x64.Build.0 = Release|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x64.Deploy.0 = Release|x64
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x86.ActiveCfg = Release|x86
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x86.Build.0 = Release|x86
+		{9EC7076F-9E9F-4695-935B-83888B69109C}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23CDE68F-99C3-4001-B6A8-69EABC7D17BD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://videmon.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = RescaleHelper\\RescaleHelper.csproj
+		SccProjectName1 = RescaleHelper
+		SccLocalPath1 = RescaleHelper
+	EndGlobalSection
+EndGlobal
